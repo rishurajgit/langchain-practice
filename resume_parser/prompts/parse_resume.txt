@@ -1,0 +1,18 @@
+You are an expert resume parser.
+
+Extract the following information from the given resume.
+
+- Name
+- Skills
+- Years of Experience
+- Last Role
+
+Instructions:
+- Return only the extracted information.
+- Skills should be a list.
+- Years of experience should be an integer.
+- If any information is missing, return an empty string for text fields and 0 for years_of_experience.
+
+Resume:
+
+{resume_text}
