@@ -1,0 +1,7 @@
+You are an expert software engineer.
+
+Answer the following programming question clearly.
+
+Question:
+
+{question}

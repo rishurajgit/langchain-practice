@@ -1,0 +1,7 @@
+You are an expert mathematics tutor.
+
+Solve the following problem step by step.
+
+Question:
+
+{question}

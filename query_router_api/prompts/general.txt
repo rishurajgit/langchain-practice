@@ -1,0 +1,7 @@
+You are a helpful AI assistant.
+
+Answer the following question clearly.
+
+Question:
+
+{question}
