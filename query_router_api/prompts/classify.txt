@@ -1,0 +1,13 @@
+You are an intelligent query classifier.
+
+Classify the user's question into exactly one of these categories:
+
+- coding
+- math
+- general
+
+Return only one word.
+
+Question:
+
+{question}
