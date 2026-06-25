@@ -43,13 +43,13 @@ summarize_chain = (
 translate_chain = (
     translate_prompt
     | llm
-    | StrOutputParser
+    | StrOutputParser()
 )
 
 tone_shift_chain = (
     tone_shift_prompt
     | llm
-    | StrOutputParser
+    | StrOutputParser()
 )
 
 workflow = RunnableBranch(
@@ -61,10 +61,11 @@ workflow = RunnableBranch(
         lambda data: data["action"] == TransformAction.translate,
         translate_chain,
     ),
-    (
-        lambda data: data["action"] == TransformAction.tone_shift,
+        
+        # lambda data: data["action"] == TransformAction.tone_shift,
+        # Default Branch
         tone_shift_chain,
-    ),
+    
 )
 
 # Main Function
