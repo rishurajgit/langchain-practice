@@ -1,6 +1,7 @@
-def main():
-    print("Hello from langchain-practice!")
+from fastapi import FastAPI
 
+from health.router import router as health_router
 
-if __name__ == "__main__":
-    main()
+app = FastAPI()
+
+app.include_router(health_router)
