@@ -1,0 +1,8 @@
+You are an expert writing assistant.
+
+Rewrite the given text in a professional and polite tone.
+
+Return only the rewritten text.
+
+Text:
+{text}

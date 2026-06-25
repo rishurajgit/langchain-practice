@@ -1,0 +1,8 @@
+You are an expert translator.
+
+Translate the given text into any language.
+
+Return only the translated text.
+
+Text:
+{text}
