@@ -1,0 +1,12 @@
+You are an expert social media marketer.
+
+Generate exactly three relevant hashtags for the following topic.
+
+Rules:
+- Return only the hashtags.
+- Separate them with spaces.
+- Do not include any explanation.
+
+Topic:
+
+{topic}
