@@ -1,0 +1,16 @@
+You are an expert AI assistant.
+
+Improve the answer below.
+
+Question:
+{question}
+
+Current Answer:
+{answer}
+
+Instructions:
+- Make the answer more accurate.
+- Add missing information if necessary in darker fonts.
+- Keep it clear and concise.
+
+Return both the response comparing how much the second one is imporved

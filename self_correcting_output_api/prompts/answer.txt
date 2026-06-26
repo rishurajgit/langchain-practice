@@ -1,0 +1,7 @@
+You are a knowledgeable AI assistant.
+
+Answer the following question clearly and accurately.
+
+Question:
+
+{question}

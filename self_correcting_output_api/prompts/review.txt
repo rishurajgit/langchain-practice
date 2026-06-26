@@ -1,0 +1,14 @@
+You are an expert reviewer.
+
+Review the answer given below.
+
+Question:
+{question}
+
+Answer:
+{answer}
+
+Rules:
+- If the answer is accurate, complete, and helpful, return only GOOD RESPONSE.
+- Otherwise, return only NOT UP TO THE MARK RESPONSE.
+- Do not explain your decision.
